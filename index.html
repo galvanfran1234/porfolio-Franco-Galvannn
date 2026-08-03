@@ -1,78 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio De Franco Galvan</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Portafolio de Franco Galván</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <header>
-      <h1>Portafolio De Franco Galvan</h1>
-      <nav class="#menu">
-        <ul>
-          <li><a href="#presentacion">Presentacion</a></li>
-          <li><a href="#sobre mi">sobre mi</a></li>
-          <li><a href="#habilidades">Habilidades </a></li>
-          <li><a href="#estudio">Estudio</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#Contacto">Contacto</a></li>
-        </ul>
-      </nav>
+      <p>Portafolio de Franco Galván</p>
     </header>
-    <nav id="presentacion">
-      <h2>Presentacion</h2>
-      <p>
-        Holaa, Mi nombre en Franco galvan, estoy aprendiendo programacion en la
-        Universidad Tecnologica Nacional (UTN), Buscando adquirir nuevos
-        conocimientos para mi desarrollo profesional. soy fanatico de jugar a la
-        pelota y al voley, me gusta mucho hacer ejercicio
-      </p>
-    </nav>
-    <nav id="sobre mi">
-      <h2>Sobre Mi</h2>
-      <p>
-        soy de argentina, buenos aires moron. tengo 20 años, soy de river (el
-        mejor equipo del mundo CLARAMENTE), quiero dedicarme a la programacion
-        por que me gusta mucho la idea de estar adelante de la compu haciendo lo
-        que mas me gusta
-      </p>
-    </nav>
-    <nav id="habilidades">
-      <h2>Habilidades</h2>
-      <button>
-        <img src="./img/html-5.png" alt="logo html" srcset="" />
-        <img src="./img/css-3.png" alt="logo css" srcset="" />
-        <img src="./img/javascript.jpg.png" alt="logo javascript" srcset="" />
-      </button>
-      <p></p>
-      <nav id="estudio">
-        <h3>Estudio</h3>
-        <img src="./img/UTN.JPG" alt="logo de la UTN" srcset="" />
-        <p>Universidad De La UTN</p>
-        <p>Desarrollado Web Full Stack</p>
 
-        <nav id="proyectos">
-          <h3>Proyectos (En Construccion)</h3>
-          <div class="carrusel">
-            <div class="primer"></div>
-            <div class="segundo"></div>
-            <div class="tercero"></div>
-            <div class="cuarto"></div>
-          </div>
-        </nav>
-
-        <nav id="Contacto">
-          <h2>Contacto</h2>
-          <a>
-            Envíame un correo a
-            <a href="mailto:tuemail@ejemplo.com">galvanfranco228@gmail.com</a>-
-          </a>
-        </nav>
-      </nav>
-      <footer>
-        <a>&copy; 2025 Portafolio Desarrollado Hecho: Por Franco Galvan :)</a>
-      </footer>
+    <button class="hamburger" id="hamburger">
+      &#9776;
+      <!-- Icono de hamburguesa -->
+    </button>
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="#about">Sobre Mi</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
     </nav>
+
+    <section id="about" class="about">
+      <h1>Sobre Mí</h1>
+      <p>
+        Holaa, Mi nombre en Franco galvan, estoy aprendiendo a ser Desarrolador
+        Web en la Universidad Tecnologica Nacional (UTN), Buscando adquirir
+        nuevos conocimientos para mi desarrollo profesional. Soy una persona
+        responsable, proactiva y con muchas ganas de aprender. Estoy buscando
+        oportunidades para crecer en el campo de la programación y contribuir
+        con mis habilidades a proyectos innovadores.
+      </p>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <h1>Habilidades</h1>
+      <ul>
+        <li>
+          <strong>Lenguajes de Programación:</strong> HTML, CSS, JavaScript,
+          TypeScript.
+        </li>
+        <img src="./img/html-5.png" alt="" srcset="" />
+        <img src="./img/css-3.png" alt="" srcset="" />
+        <img src="./img/javascript.jpg" alt="" srcset="" />
+        <img src="./img/typescript.png" alt="" srcset="" />
+        <li>
+          <strong>Herramientas y Frameworks:</strong> React, Node.js, Docker,
+          MongoDB, GitHub y MySql.
+        </li>
+        <img src="./img/react.png" alt="icono de react" srcset="" />
+        <img src="./img/nodejs.png" alt="icono de nodejs" srcset="" />
+        <img src="./img/docker.png" alt="icono de docker" srcset="" />
+        <img
+          src="./img/icons8-mongodb-64.png"
+          alt="icono de mongodb"
+          srcset=""
+        />
+        <img src="./img/github.png" alt="icono de github" srcset="" />
+        <img src="./img/mysql.png" alt="icono de mysql" srcset="" />
+
+        <li><strong>Idiomas:</strong> Español (Nativo), Inglés (Basico)</li>
+        <img src="./img/argentina.png" alt="bandera de argentina" srcset="" />
+      </ul>
+    </section>
+    <section id="experiencia" class="experiencia">
+      <h1>Experiencia</h1>
+      <p>
+        <strong>
+          Actualmente, estoy en búsqueda de mi primera experiencia laboral en el
+          campo del desarrollo web. Estoy abierto a oportunidades de prácticas
+          profesionales, pasantías o roles de nivel inicial donde pueda aplicar
+          mis conocimientos y seguir aprendiendo.</strong
+        >
+      </p>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h1>Proyectos</h1>
+      <div class="proyecto-item">
+        <h3>Proyecto 1: Tp-Final-React--Franco-Galvan- (App de Pokémon)</h3>
+        <p>
+          <strong>Descripción:</strong> Breve resumen del proyecto "Es el
+          proyecto final integrador de front-end. Se trata de una Single Page
+          Application(SPA) temática de Pokémon, desarrollada desde cero para
+          demostrar las habilidades aprendidas, aplicando enrutamiento de
+          páginas y manejo de estado global".
+        </p>
+        <p>
+          <strong>Tecnologías Usadas:</strong>
+          <li>React (v19) para la construcción de interfaces.</li>
+          <li>Vite como entorno de desarrollo rápido y empaquetador.</li>
+          <li>
+            React Router DOM para la navegación entre distintas vistas de la
+            aplicación.
+          </li>
+          <li>
+            Redux Toolkit & React Redux para el manejo y gestión de estados
+            globales.
+          </li>
+          <li>JavaScript (ES Modules).</li>
+          <li>
+            ESLint para garantizar la calidad del código y mantener buenas
+            prácticas.
+          </li>
+        </p>
+        <p>
+          <strong>Enlace:</strong>
+          <a
+            href="https://github.com/galvanfran1234/tp-final-react--Franco-Galvan-.git"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </div>
+      <div class="proyecto-item">
+        <h3>Proyecto 2: Base de Datos "Patitas Felices"</h3>
+        <p>
+          <strong>Descripción:</strong> "Estructura de base de datos
+          desarrollada para administrar operativamente una clínica veterinaria.
+          Permite llevar el registro exacto de dueños, mascotas, médicos y sus
+          historiales clínicos, garantizando la integridad de los datos e
+          incorporando control de acceso para distintos roles de usuario."
+        </p>
+        <p>
+          <strong>Tecnologías Usadas:</strong> MySQL, SQL Scripts, Triggers.
+        </p>
+        <p>
+          <strong>Enlace:</strong>
+          <a
+            href="https://github.com/galvanfran1234/tp-mysql--FRANCO-GALVAN-.git"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <section id="educacion" class="educacion">
+      <h2>Educación</h2>
+      <p>
+        <li><strong>Título:</strong> Programador Web Front-End Developer</li>
+        <li>
+          <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
+          (2025)
+        </li>
+        <li>
+          <strong>Descripción:</strong> Formación integral en desarrollo web
+          front-end, abarcando desde los fundamentos de HTML, CSS y JavaScript
+          hasta el uso avanzado de frameworks como React.
+        </li>
+        <li>
+          <strong>Certificado:</strong>
+          <a
+            href="https://validator.centrodeelearning.com/validator/VWiDTazimX"
+            target="_blank"
+            >UTN - Programador Web Front-End Developer</a
+          >
+        </li>
+      </p>
+
+      <li><strong>Título:</strong> Programador Web Back-End Developer</li>
+      <li>
+        <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
+        (2026)
+      </li>
+      <li>
+        <strong>Descripción:</strong> Formación especializada en desarrollo web
+        back-end, cubriendo tecnologías como Node.js, bases de datos SQL y
+        NoSQL, y principios de arquitectura de software para la creación de
+        aplicaciones robustas y escalables.
+      </li>
+      <li>
+        <strong>Certificado:</strong>
+        <a
+          href="https://validator.centrodeelearning.com/validator/90DoK2662D"
+          target="_blank"
+          >UTN - Programador Web Back-End Developer</a
+        >
+      </li>
+    </section>
+
+    <p>
+      <li>
+        <strong>Título:</strong> Diplomatura en Programacion Web Full Stack
+      </li>
+      <li>
+        <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
+        (2026)
+      </li>
+      <li>
+        <strong>Descripción:</strong> Formación completa en desarrollo web full
+        stack, integrando conocimientos de Front-End y Back-End para la creación
+        de aplicaciones web completas, con la integración de tecnologías y
+        mejores prácticas de desarrollo.
+      </li>
+      <li>
+        <strong>Certificado:</strong>
+        <a
+          href="https://validator.centrodeelearning.com/validator/i7qMMYLIOB"
+          target="_blank"
+          >UTN - Diplomatura en Programacion Web Full Stack</a
+        >
+      </li>
+    </p>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en
+        contactarme!
+      </p>
+      <p><strong>Gmail:</strong>galvanfranco228@gmail.com</p>
+      <p>
+        <strong>LinkedIn:</strong>
+        <a
+          href="https://www.linkedin.com/in/franco-galvan-b78959295"
+          target="_blank"
+          >linkedin.com/in/francogalvan</a
+        >
+      </p>
+      <p><strong>Teléfono:</strong>+54 11 2165-8739</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Franco Galván. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

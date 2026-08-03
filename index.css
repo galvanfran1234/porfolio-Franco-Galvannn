@@ -1,0 +1,177 @@
+/* Responsive y Menú Hamburguesa */
+.hamburger {
+  display: none; /* Oculto por defecto en escritorio */
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #333; /* Añadimos color para asegurar visibilidad */
+}
+/* En escritorio, .nav-menu se muestra normalmente */
+.nav-menu {
+  display: block;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center; /* Centrar elementos en móvil */
+  }
+  .hamburger {
+    display: block; /* Visible solo en móvil */
+    margin: 0 auto; /* Centrar icono temporal o permanentemente */
+  }
+  .nav-menu {
+    display: none; /* Ocultar menú en móvil por defecto */
+  }
+  .nav-menu.active {
+    display: block; /* Mostrar menú al hacer clic en la hamburguesa */
+  }
+}
+/* CSS para el portafolio */
+header {
+background-color: #2c3e50;
+color: white;
+padding: 5px;
+text-align: center;
+background: #333;
+color: #fff;
+padding: 1rem 0;
+text-align: center;
+}
+header h1 {
+margin: 0;
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+img {
+width: 60px;
+height: 60px;
+margin: 20px;
+}
+nav {
+background-color: #34495e;
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+max-width: 1200px;
+margin: 0 auto;
+}
+.about,
+.habilidades,
+.experiencia,
+.proyectos,
+.education,
+.contact {
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 40px;
+}
+.experiencia-item,
+.proyecto-item {
+background-color: white;
+padding: 20px;
+margin: 10px 0;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact p {
+margin: 10px 0;
+}
+p {
+text-align: center;
+}
+h3 {
+font-size: larger;
+text-align: center;
+font-size: 25px;
+}
+h2 {
+text-align: center;
+}
+h1,
+h2 {
+color: #332c50;
+}
+h1,
+h2,
+h3 {
+font-family: "Arial", sans-serif;
+}
+li {
+font-size: 18px;
+text-align: center;
+list-style: none;
+}
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 1rem;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+#presentacion {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+#habilidades {
+text-align: center;
+}
+.habilidades:hover img {
+transform: scale(1.5);
+}
+.habilidades ul {
+list-style-type: none;
+padding: 0;
+}
+.habilidades li {
+background-color: #ecf0f1;
+margin: 5px 0;
+padding: 10px;
+border-radius: 5px;
+}
+footer {
+background-color: #2c3e50;
+color: white;
+text-align: center;
+padding: 10px;
+text-align: center;
+padding: 1rem 0;
+background: #333;
+color: #fff;
+border-radius: 10px;
+}
+

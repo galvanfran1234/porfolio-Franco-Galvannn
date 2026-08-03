@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio De Franco Galvan</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portafolio De Franco Galvan</h1>
+      <nav class="#menu">
+        <ul>
+          <li><a href="#presentacion">Presentacion</a></li>
+          <li><a href="#sobre mi">sobre mi</a></li>
+          <li><a href="#habilidades">Habilidades </a></li>
+          <li><a href="#estudio">Estudio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav id="presentacion">
+      <h2>Presentacion</h2>
+      <p>
+        Holaa, Mi nombre en Franco galvan, estoy aprendiendo programacion en la
+        Universidad Tecnologica Nacional (UTN), Buscando adquirir nuevos
+        conocimientos para mi desarrollo profesional. soy fanatico de jugar a la
+        pelota y al voley, me gusta mucho hacer ejercicio
+      </p>
+    </nav>
+    <nav id="Sobre mi">
+      <h2>Sobre Mi</h2>
+      <p>
+        soy de argentina, buenos aires moron. tengo 20 años, soy de river (el
+        mejor equipo del mundo CLARAMENTE), quiero dedicarme a la programacion
+        por que me gusta mucho la idea de estar adelante de la compu haciendo lo
+        que mas me gusta
+      </p>
+    </nav>
+    <nav id="habilidades">
+      <h2>Habilidades</h2>
+      <button>
+        <img src="./img/html-5.png" alt="logo html" srcset="" />
+        <img src="./img/css-3.png" alt="logo css" srcset="" />
+        <img src="./img/javascript.jpg.png" alt="logo javascript" srcset="" />
+      </button>
+      <p></p>
+      <nav id="estudio">
+        <h3>Estudio</h3>
+        <img src="./img/UTN.JPG" alt="logo de la UTN" srcset="" />
+        <p>Universidad De La UTN</p>
+        <p>Desarrollado Web Full Stack</p>
+
+        <nav id="proyectos">
+          <h3>Proyectos (En Construccion)</h3>
+          <div class="carrusel">
+            <div class="primer"></div>
+            <div class="segundo"></div>
+            <div class="tercero"></div>
+            <div class="cuarto"></div>
+          </div>
+        </nav>
+
+        <nav id="Contacto">
+          <h2>Contacto</h2>
+          <a>
+            Envíame un correo a
+            <a href="mailto:tuemail@ejemplo.com">galvanfranco228@gmail.com</a>-
+          </a>
+        </nav>
+      </nav>
+      <footer>
+        <a>&copy; 2025 Portafolio Desarrollado Hecho: Por Franco Galvan :)</a>
+      </footer>
+    </nav>
+  </body>
+</html>

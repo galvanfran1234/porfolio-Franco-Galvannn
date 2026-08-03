@@ -1,0 +1,9 @@
+# Exclude executable installer files
+*.exe
+
+# Exclude dependencies if applicable
+node_modules/
+
+# OS metadata
+.DS_Store
+Thumbs.db
