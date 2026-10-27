@@ -3,232 +3,401 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio de Franco Galván</title>
+    <title>Franco Galván | Desarrollador Web Full Stack</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <!-- Encabezado y Navegación -->
     <header>
-      <p>Portafolio de Franco Galván</p>
+      <div class="nav-container">
+        <div class="logo-text">Franco<span>.dev</span></div>
+        <button class="hamburger" id="hamburger" aria-label="Abrir Menú">
+          &#9776;
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+          <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <button class="hamburger" id="hamburger">
-      &#9776;
-      <!-- Icono de hamburguesa -->
-    </button>
-    <nav class="nav-menu" id="nav-menu">
-      <ul>
-        <li><a href="#about">Sobre Mi</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-
-    <section id="about" class="about">
-      <h1>Sobre Mí</h1>
-      <p>
-        Holaa, Mi nombre en Franco galvan, estoy aprendiendo a ser Desarrolador
-        Web en la Universidad Tecnologica Nacional (UTN), Buscando adquirir
-        nuevos conocimientos para mi desarrollo profesional. Soy una persona
-        responsable, proactiva y con muchas ganas de aprender. Estoy buscando
-        oportunidades para crecer en el campo de la programación y contribuir
-        con mis habilidades a proyectos innovadores.
+    <!-- Presentación / Hero -->
+    <div class="hero">
+      <div class="hero-badge">🚀 Desarrollador Web Full Stack</div>
+      <h1>Franco Galván</h1>
+      <div class="hero-subtitle">Especializado en Back-End & Front-End</div>
+      <p class="hero-desc">
+        Graduado en la <strong>Universidad Tecnológica Nacional (UTN)</strong>.
+        Apasionado por crear aplicaciones web robustas, escalables y con
+        interfaces fluidas utilizando el ecosistema de JavaScript/TypeScript,
+        React, Node.js y bases de datos relacionales y NoSQL.
       </p>
-    </section>
-
-    <section id="habilidades" class="habilidades">
-      <h1>Habilidades</h1>
-      <ul>
-        <li>
-          <strong>Lenguajes de Programación:</strong> HTML, CSS, JavaScript,
-          TypeScript.
-        </li>
-        <img src="./img/html-5.png" alt="" srcset="" />
-        <img src="./img/css-3.png" alt="" srcset="" />
-        <img src="./img/javascript.jpg" alt="" srcset="" />
-        <img src="./img/typescript.png" alt="" srcset="" />
-        <li>
-          <strong>Herramientas y Frameworks:</strong> React, Node.js, Docker,
-          MongoDB, GitHub y MySql.
-        </li>
-        <img src="./img/react.png" alt="icono de react" srcset="" />
-        <img src="./img/nodejs.png" alt="icono de nodejs" srcset="" />
-        <img src="./img/docker.png" alt="icono de docker" srcset="" />
-        <img
-          src="./img/icons8-mongodb-64.png"
-          alt="icono de mongodb"
-          srcset=""
-        />
-        <img src="./img/github.png" alt="icono de github" srcset="" />
-        <img src="./img/mysql.png" alt="icono de mysql" srcset="" />
-
-        <li><strong>Idiomas:</strong> Español (Nativo), Inglés (Basico)</li>
-        <img src="./img/argentina.png" alt="bandera de argentina" srcset="" />
-      </ul>
-    </section>
-    <section id="experiencia" class="experiencia">
-      <h1>Experiencia</h1>
-      <p>
-        <strong>
-          Actualmente, estoy en búsqueda de mi primera experiencia laboral en el
-          campo del desarrollo web. Estoy abierto a oportunidades de prácticas
-          profesionales, pasantías o roles de nivel inicial donde pueda aplicar
-          mis conocimientos y seguir aprendiendo.</strong
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        <a
+          href="https://github.com/galvanfran1234"
+          target="_blank"
+          class="btn btn-secondary"
+          >GitHub</a
         >
-      </p>
+      </div>
+    </div>
+
+    <!-- Sobre Mí -->
+    <section id="about">
+      <div class="section-header">
+        <h2>Sobre Mí</h2>
+        <p>Conocé más sobre mi perfil y enfoque profesional</p>
+      </div>
+      <div class="about-card">
+        <p>
+          Soy Desarrollador Web Full Stack con formación integral en la
+          <strong>Universidad Tecnológica Nacional (UTN)</strong>, donde
+          completé los programas de Front-End, Back-End y la Diplomatura Full
+          Stack.
+        </p>
+        <p>
+          Me destaco por ser una persona analítica, proactiva y con capacidad de
+          adaptación a nuevos desafíos técnicos. Disfruto tanto del diseño de
+          bases de datos sólidas y arquitecturas en el servidor como de la
+          construcción de interfaces de usuario modernas, intuitivas y
+          responsivas. Busco sumar valor en proyectos desafiantes y continuar
+          creciendo profesionalmente en el sector tecnológico.
+        </p>
+      </div>
     </section>
 
-    <section id="proyectos" class="proyectos">
-      <h1>Proyectos</h1>
-      <div class="proyecto-item">
-        <h3>Proyecto 1: Tp-Final-React--Franco-Galvan- (App de Pokémon)</h3>
-        <p>
-          <strong>Descripción:</strong> Breve resumen del proyecto "Es el
-          proyecto final integrador de front-end. Se trata de una Single Page
-          Application(SPA) temática de Pokémon, desarrollada desde cero para
-          demostrar las habilidades aprendidas, aplicando enrutamiento de
-          páginas y manejo de estado global".
-        </p>
-        <p>
-          <strong>Tecnologías Usadas:</strong>
-          <li>React (v19) para la construcción de interfaces.</li>
-          <li>Vite como entorno de desarrollo rápido y empaquetador.</li>
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <div class="section-header">
+        <h2>Habilidades Técnicas</h2>
+        <p>Herramientas y tecnologías que utilizo en mis desarrollos</p>
+      </div>
+      <div class="skills-container">
+        <!-- Front-End -->
+        <div class="skills-category">
+          <h3>💻 Front-End</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="./img/html-5.png" alt="HTML5" />
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/css-3.png" alt="CSS3" />
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/javascript.jpg" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/typescript.png" alt="TypeScript" />
+              <span>TypeScript</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/react.png" alt="React" />
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Back-End & Bases de Datos -->
+        <div class="skills-category">
+          <h3>⚙️ Back-End & Bases de Datos</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="./img/nodejs.png" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/mysql.png" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/icons8-mongodb-64.png" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Herramientas & DevOps -->
+        <div class="skills-category">
+          <h3>🛠️ Herramientas & Entornos</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="./img/docker.png" alt="Docker" />
+              <span>Docker</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/github.png" alt="Git & GitHub" />
+              <span>Git & GitHub</span>
+            </div>
+            <div class="skill-card">
+              <img src="./img/argentina.png" alt="Español" />
+              <span>Español (Nativo)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="experiencia">
+      <div class="section-header">
+        <h2>Experiencia Laboral</h2>
+        <p>Proyectos en producción desarrollados para clientes</p>
+      </div>
+      <div class="experiencia-card">
+        <span class="exp-badge">Freelance / Independiente</span>
+        <h3>Desarrollador Web Frontend</h3>
+        <div class="exp-period">2025 - Presente</div>
+        <div class="exp-project-title">
+          Proyecto Destacado: Plataforma Web de Invitación Interactiva para
+          Evento Social
+        </div>
+        <ul class="experiencia-lista">
           <li>
-            React Router DOM para la navegación entre distintas vistas de la
-            aplicación.
+            Desarrollo integral de una aplicación web responsive orientada a la
+            invitación, comunicación y gestión de asistentes para evento social.
           </li>
           <li>
-            Redux Toolkit & React Redux para el manejo y gestión de estados
-            globales.
+            Diseño interactivo enfocado en la experiencia de usuario móvil
+            (<em>Mobile-First</em>), con diseño visual personalizado, paleta
+            temática y animaciones fluidas.
           </li>
-          <li>JavaScript (ES Modules).</li>
           <li>
-            ESLint para garantizar la calidad del código y mantener buenas
-            prácticas.
+            Implementación de funcionalidades interactivas: cuenta regresiva
+            dinámica en tiempo real, confirmación de asistencia (RSVP), enlaces
+            interactivos a Google Maps y detalles del itinerario.
           </li>
-        </p>
-        <p>
-          <strong>Enlace:</strong>
+          <li>
+            Despliegue y publicación en producción, asegurando tiempos de carga
+            rápidos y alta disponibilidad para todos los invitados.
+          </li>
+        </ul>
+
+        <div class="browser-mockup">
+          <div class="browser-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="browser-title">demo-invitacion-casamiento.mp4</span>
+          </div>
+          <video autoplay loop muted playsinline controls>
+            <source src="./img/casamiento-demo.mp4" type="video/mp4" />
+            Tu navegador no soporta el formato de video.
+          </video>
+        </div>
+        <span class="video-caption"
+          >Demostración en video del proyecto en funcionamiento</span
+        >
+      </div>
+    </section>
+
+    <!-- Proyectos Destacados -->
+    <section id="proyectos">
+      <div class="section-header">
+        <h2>Proyectos Destacados</h2>
+        <p>Trabajos integradores que demuestran mis habilidades técnicas</p>
+      </div>
+      <div class="proyectos-grid">
+        <!-- Proyecto 1 -->
+        <div class="proyecto-card">
+          <h3>App de Pokémon (Single Page Application)</h3>
+          <p>
+            Proyecto final integrador de front-end. Aplicación web SPA
+            desarrollada desde cero con React 19 y Redux Toolkit para la gestión
+            del estado global. Permite explorar catálogo de criaturas, filtrar
+            dinámicamente y navegar fluidamente entre vistas sin recargar la
+            página.
+          </p>
+          <div class="tech-badges">
+            <span class="badge primary">React 19</span>
+            <span class="badge primary">Redux Toolkit</span>
+            <span class="badge">React Router DOM</span>
+            <span class="badge">Vite</span>
+            <span class="badge">JavaScript (ES6+)</span>
+            <span class="badge">ESLint</span>
+          </div>
           <a
             href="https://github.com/galvanfran1234/tp-final-react--Franco-Galvan-.git"
             target="_blank"
-            >GitHub</a
+            class="btn btn-secondary"
           >
-        </p>
-      </div>
-      <div class="proyecto-item">
-        <h3>Proyecto 2: Base de Datos "Patitas Felices"</h3>
-        <p>
-          <strong>Descripción:</strong> "Estructura de base de datos
-          desarrollada para administrar operativamente una clínica veterinaria.
-          Permite llevar el registro exacto de dueños, mascotas, médicos y sus
-          historiales clínicos, garantizando la integridad de los datos e
-          incorporando control de acceso para distintos roles de usuario."
-        </p>
-        <p>
-          <strong>Tecnologías Usadas:</strong> MySQL, SQL Scripts, Triggers.
-        </p>
-        <p>
-          <strong>Enlace:</strong>
+            Ver Código en GitHub →
+          </a>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="proyecto-card">
+          <h3>Sistema de Base de Datos "Patitas Felices"</h3>
+          <p>
+            Arquitectura y diseño de base de datos relacional para la gestión
+            operativa de una clínica veterinaria. Implementa el registro seguro
+            e integral de pacientes, propietarios, historias clínicas y turnos
+            médicos. Incorpora triggers automatizados, scripts SQL optimizados y
+            control de accesos por roles.
+          </p>
+          <div class="tech-badges">
+            <span class="badge primary">MySQL</span>
+            <span class="badge primary">SQL Scripts</span>
+            <span class="badge">Triggers</span>
+            <span class="badge">Integridad Referencial</span>
+            <span class="badge">Modelado E/R</span>
+          </div>
           <a
             href="https://github.com/galvanfran1234/tp-mysql--FRANCO-GALVAN-.git"
             target="_blank"
-            >GitHub</a
+            class="btn btn-secondary"
           >
-        </p>
+            Ver Código en GitHub →
+          </a>
+        </div>
       </div>
     </section>
 
-    <section id="educacion" class="educacion">
-      <h2>Educación</h2>
-      <p>
-        <li><strong>Título:</strong> Programador Web Front-End Developer</li>
-        <li>
-          <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
-          (2025)
-        </li>
-        <li>
-          <strong>Descripción:</strong> Formación integral en desarrollo web
-          front-end, abarcando desde los fundamentos de HTML, CSS y JavaScript
-          hasta el uso avanzado de frameworks como React.
-        </li>
-        <li>
-          <strong>Certificado:</strong>
+    <!-- Educación y Certificados -->
+    <section id="educacion">
+      <div class="section-header">
+        <h2>Educación y Certificaciones</h2>
+        <p>
+          Trayectoria académica formal en la Universidad Tecnológica Nacional
+        </p>
+      </div>
+      <div class="educacion-grid">
+        <!-- Diplomatura Full Stack -->
+        <div class="educacion-card">
+          <img src="./img/UTN.JPG" alt="Logo UTN" class="edu-logo" />
+          <div class="edu-content">
+            <div class="edu-header">
+              <h3>Diplomatura en Programación Web Full Stack</h3>
+              <span class="badge primary">2026</span>
+            </div>
+            <div class="edu-institution">
+              Universidad Tecnológica Nacional (UTN)
+            </div>
+            <p class="edu-desc">
+              Formación integral integrando arquitecturas front-end y back-end,
+              despliegue de soluciones completas y adopción de mejores prácticas
+              de desarrollo de software.
+            </p>
+            <a
+              href="https://validator.centrodeelearning.com/validator/sWPjiScEWr"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              🏅 Verificar Certificado Oficial
+            </a>
+          </div>
+        </div>
+
+        <!-- Back-End -->
+        <div class="educacion-card">
+          <img src="./img/UTN.JPG" alt="Logo UTN" class="edu-logo" />
+          <div class="edu-content">
+            <div class="edu-header">
+              <h3>Programador Web Back-End Developer</h3>
+              <span class="badge primary">2026</span>
+            </div>
+            <div class="edu-institution">
+              Universidad Tecnológica Nacional (UTN)
+            </div>
+            <p class="edu-desc">
+              Especialización en desarrollo backend con Node.js, diseño de bases
+              de datos relacionales y NoSQL, APIs RESTful y principios de
+              escalabilidad.
+            </p>
+            <a
+              href="https://validator.centrodeelearning.com/validator/3JhBJWTTb6"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              🏅 Verificar Certificado Oficial
+            </a>
+          </div>
+        </div>
+
+        <!-- Front-End -->
+        <div class="educacion-card">
+          <img src="./img/UTN.JPG" alt="Logo UTN" class="edu-logo" />
+          <div class="edu-content">
+            <div class="edu-header">
+              <h3>Programador Web Front-End Developer</h3>
+              <span class="badge primary">2025</span>
+            </div>
+            <div class="edu-institution">
+              Universidad Tecnológica Nacional (UTN)
+            </div>
+            <p class="edu-desc">
+              Especialización en interfaces web interactivas, dominio de HTML5
+              semántico, CSS3 avanzado, JavaScript moderno y frameworks
+              reactivos como React.
+            </p>
+            <a
+              href="https://validator.centrodeelearning.com/validator/VWiDTazimX"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              🏅 Verificar Certificado Oficial
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <div class="section-header">
+        <h2>Contacto</h2>
+        <p>¿Tenés una propuesta o proyecto en mente? ¡Hablemos!</p>
+      </div>
+      <div class="contacto-card">
+        <h3>Ponete en contacto</h3>
+        <p>
+          Estoy disponible para oportunidades laborales y nuevos proyectos.
+          Podés escribirme directamente por cualquiera de estos canales:
+        </p>
+        <div class="contacto-grid">
+          <a href="mailto:galvanfranco228@gmail.com" class="contacto-item">
+            <span class="icon">✉️</span>
+            <span class="label">Correo Electrónico</span>
+            <span class="value">galvanfranco228@gmail.com</span>
+          </a>
           <a
-            href="https://validator.centrodeelearning.com/validator/VWiDTazimX"
+            href="https://www.linkedin.com/in/franco-galvan-b78959295"
             target="_blank"
-            >UTN - Programador Web Front-End Developer</a
+            class="contacto-item"
           >
-        </li>
-      </p>
-
-      <li><strong>Título:</strong> Programador Web Back-End Developer</li>
-      <li>
-        <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
-        (2026)
-      </li>
-      <li>
-        <strong>Descripción:</strong> Formación especializada en desarrollo web
-        back-end, cubriendo tecnologías como Node.js, bases de datos SQL y
-        NoSQL, y principios de arquitectura de software para la creación de
-        aplicaciones robustas y escalables.
-      </li>
-      <li>
-        <strong>Certificado:</strong>
-        <a
-          href="https://validator.centrodeelearning.com/validator/90DoK2662D"
-          target="_blank"
-          >UTN - Programador Web Back-End Developer</a
-        >
-      </li>
+            <span class="icon">💼</span>
+            <span class="label">LinkedIn</span>
+            <span class="value">in/francogalvan</span>
+          </a>
+          <a
+            href="https://wa.me/5491121658739"
+            target="_blank"
+            class="contacto-item"
+          >
+            <span class="icon">📱</span>
+            <span class="label">WhatsApp</span>
+            <span class="value">+54 11 2165-8739</span>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <p>
-      <li>
-        <strong>Título:</strong> Diplomatura en Programacion Web Full Stack
-      </li>
-      <li>
-        <strong>Graduado En:</strong> UTN (Universidad Tecnológica Nacional)
-        (2026)
-      </li>
-      <li>
-        <strong>Descripción:</strong> Formación completa en desarrollo web full
-        stack, integrando conocimientos de Front-End y Back-End para la creación
-        de aplicaciones web completas, con la integración de tecnologías y
-        mejores prácticas de desarrollo.
-      </li>
-      <li>
-        <strong>Certificado:</strong>
-        <a
-          href="https://validator.centrodeelearning.com/validator/i7qMMYLIOB"
-          target="_blank"
-          >UTN - Diplomatura en Programacion Web Full Stack</a
-        >
-      </li>
-    </p>
-
-    <section id="contacto" class="contacto">
-      <h2>Contacto</h2>
-      <p>
-        Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en
-        contactarme!
-      </p>
-      <p><strong>Gmail:</strong>galvanfranco228@gmail.com</p>
-      <p>
-        <strong>LinkedIn:</strong>
-        <a
-          href="https://www.linkedin.com/in/franco-galvan-b78959295"
-          target="_blank"
-          >linkedin.com/in/francogalvan</a
-        >
-      </p>
-      <p><strong>Teléfono:</strong>+54 11 2165-8739</p>
-    </section>
-
+    <!-- Footer -->
     <footer>
-      <p>&copy; 2026 Franco Galván. Todos los derechos reservados.</p>
+      <p>
+        &copy; 2026 Franco Galván · Desarrollador Web Full Stack. Todos los
+        derechos reservados.
+      </p>
     </footer>
 
     <script src="./index.js"></script>
